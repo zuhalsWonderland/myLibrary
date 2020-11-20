@@ -23,4 +23,7 @@ public class BookManagementPage {
 
     @FindBy(xpath = "//li[@class='page-item next'][1]")
     public WebElement nextPage;
+
+    @FindBy(css = "span.title")
+    public List<WebElement> modules;
 }
